@@ -169,3 +169,5 @@ def http_request(url, username, password, data=None):
     opener = urllib.request.build_opener(auth_handler)
     f = opener.open(url, data=data)
     return f.read()
+
+# Determining missing objects
